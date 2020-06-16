@@ -15,7 +15,7 @@ const StyledWrapper = styled.div`
 
 const IndexPage = () => (
   <StyledWrapper>
-    <Header>mikstura.IT
+    <Header>mikstura<font color="orange">.IT</font>
       <Navigation />
     </Header>
   </StyledWrapper>

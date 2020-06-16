@@ -9,12 +9,12 @@ const NavigationWrapper = styled.ul`
     list-style: none;
     display: flex;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     float: right;
 ` ;
 
 const NavigationItem = styled.li`
-    margin-right: 30px;
+    margin-right: 70px;
     position: relative;
 
     :last-child{
@@ -26,15 +26,31 @@ const NavigationItem = styled.li`
         border-color: orange;
         border-radius: 12px;
     }
-`;
+` ; 
+
+const StyledLink = styled(Link)`
+    color: #404040;
+    text-decoration: none;
+
+` ;
 
 const Navigation = () => (
     <NavigationWrapper>
-        <NavigationItem>Aktualności</NavigationItem>
-        <NavigationItem>O nas</NavigationItem>
-        <NavigationItem>Kursy</NavigationItem>
-        <NavigationItem>Galeria</NavigationItem>
-        <NavigationItem>Kontakt</NavigationItem>
+        <NavigationItem>
+            <StyledLink to={'/news/'}>Aktualności</StyledLink>
+        </NavigationItem>
+        <NavigationItem>
+            <StyledLink to={'/about/'}>O nas</StyledLink>
+        </NavigationItem>
+        <NavigationItem>
+            <StyledLink to={'/courses/'}>Kursy</StyledLink>
+        </NavigationItem>
+        <NavigationItem>
+            <StyledLink to={'/galery/'}>Galeria</StyledLink>
+        </NavigationItem>
+        <NavigationItem>
+            <StyledLink to={'/contact/'}>Kontakt</StyledLink>
+        </NavigationItem>
     </NavigationWrapper>
 );
 
