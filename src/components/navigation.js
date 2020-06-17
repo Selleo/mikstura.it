@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import {Link} from 'gatsby'
 
-
 const NavigationWrapper = styled.ul`
     padding: 0;
     margin: 10px;
@@ -37,6 +36,10 @@ const StyledLink = styled(Link)`
         font-weight: 600;
     }
 
+    &:hover {
+        color: orange;
+        text-decoration: none;
+    }
 ` ;
 
 const Navigation = () => (
