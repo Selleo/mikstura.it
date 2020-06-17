@@ -31,25 +31,30 @@ const NavigationItem = styled.li`
 const StyledLink = styled(Link)`
     color: #404040;
     text-decoration: none;
+    
+    &.active{
+        color: orange;
+        font-weight: 600;
+    }
 
 ` ;
 
 const Navigation = () => (
     <NavigationWrapper>
         <NavigationItem>
-            <StyledLink to={'/news/'}>Aktualności</StyledLink>
+            <StyledLink to={'/news/'} activeClassName='active'>Aktualności</StyledLink>
         </NavigationItem>
         <NavigationItem>
-            <StyledLink to={'/about/'}>O nas</StyledLink>
+            <StyledLink to={'/about/'} activeClassName='active'>O nas</StyledLink>
         </NavigationItem>
         <NavigationItem>
-            <StyledLink to={'/courses/'}>Kursy</StyledLink>
+            <StyledLink to={'/courses/'} activeClassName='active'>Kursy</StyledLink>
         </NavigationItem>
         <NavigationItem>
-            <StyledLink to={'/galery/'}>Galeria</StyledLink>
+            <StyledLink to={'/galery/'} activeClassName='active'>Galeria</StyledLink>
         </NavigationItem>
         <NavigationItem>
-            <StyledLink to={'/contact/'}>Kontakt</StyledLink>
+            <StyledLink to={'/contact/'} activeClassName='active'>Kontakt</StyledLink>
         </NavigationItem>
     </NavigationWrapper>
 );
