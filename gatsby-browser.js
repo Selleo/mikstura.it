@@ -1,3 +1,6 @@
+//bootstrap 
+import 'bootstrap/dist/css/bootstrap.css';
+
 /**
  * Implement Gatsby's Browser APIs in this file.
  *

@@ -4,11 +4,12 @@ import styled from 'styled-components'
 import Header from '../components/header'
 import Navigation from '../components/navigation'
 
-
 const StyledWrapper = styled.div`
   background-color: white;
   color: #404040;
 ` ;
+
+
 const StyledLink = styled(Link)`
     color: #404040;
     text-decoration: none;
