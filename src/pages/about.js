@@ -13,12 +13,16 @@ const StyledWrapper = styled.div`
 ` ;
 
 
+const StyledLink = styled(Link)`
+    color: #404040;
+    text-decoration: none;
+`;
+
 const IndexPage = () => (
   <StyledWrapper>
-    <Header>mikstura<font color="orange">.IT</font>
+    <Header><StyledLink to={/./}>mikstura<font color="orange">.IT</font></StyledLink>
       <Navigation />
     </Header>
-    <h3>To jest strona poświęcona informacjom o nas.</h3>
   </StyledWrapper>
 )
 
