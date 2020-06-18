@@ -1,0 +1,45 @@
+.header {
+  margin: 30px;
+  font-size: 28px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 200;
+}
+.content {
+  background-color: white;
+  color: #404040;
+}
+.navigation {
+  list-style: none;
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  float: right;
+}
+.navigationItem {
+  margin-right: 70px;
+  position: relative; 
+}
+.last {
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  margin-top: -10px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: orange;
+  border-radius: 12px;
+}
+.styledLink {
+  color: #404040;
+  text-decoration: none;
+}
+.styledLink.active {
+  color: orange;
+  font-weight: 600;
+}
+
+.styledLink:hover {
+  color: orange;
+  text-decoration: none;
+}

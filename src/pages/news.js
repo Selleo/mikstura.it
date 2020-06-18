@@ -1,30 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
-import styled from 'styled-components'
-import Header from '../components/header'
 import Navigation from '../components/navigation'
-
-const StyledWrapper = styled.div`
-  background-color: white;
-  color: #404040;
-` ;
-
-const StyledLink = styled(Link)`
-    color: #404040;
-    text-decoration: none;
-
-    &:hover {
-      color: inherit;
-      text-decoration: none;
-  }
-`;
+import '../components/stylesheet.css'
 
 const IndexPage = () => (
-  <StyledWrapper>
-    <Header><StyledLink to={/./}>mikstura<font color="orange">.IT</font></StyledLink>
-      <Navigation />
-    </Header>
-  </StyledWrapper>
+    <div className='content'>
+      <h1 className='header'><Link className='styledLink' to={/./}>mikstura<font color="orange">.IT</font></Link>
+        <Navigation />
+      </h1>
+    </div>
 )
 
 export default IndexPage
