@@ -1,14 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
-import Navigation from '../components/navigation'
-import '../components/stylesheet.css'
+import Layout from '../components/layout'
+import '../styles/stylesheet.css'
 
 const IndexPage = () => (
-    <div className='content'>
-      <h1 className='header'><Link className='styledLink' to={/./}>mikstura<font color="orange">.IT</font></Link>
-        <Navigation />
-      </h1>
-    </div>
+  <Layout />
 )
 
 export default IndexPage

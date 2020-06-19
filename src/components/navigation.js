@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import './stylesheet.css'
+import '../styles/stylesheet.css'
 
 const Navigation = () => (
     <li className='navigation'>
