@@ -3,4 +3,8 @@ module.exports = {
     __PATH_PREFIX__: true,
   },
   extends: `react-app`,
+  "rules": {
+    "semi": ["error", "always"],
+    "indent": ["error", 2]
+  }
 }
