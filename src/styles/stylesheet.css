@@ -53,7 +53,7 @@
 }
 .styledLink.active {
   color: orange;
-  font-weight: 600;
+  text-shadow: 0px 0px 1px orange;
 }
 
 .styledLink:hover {
