@@ -34,13 +34,11 @@ const Layout = ({ children }) => {
       >
         <div className='content'>
           <h1 className='header'>
-            <div className='logo'>
-              <Link className='styledLink' to={/./}>mikstura<font color="orange">.IT</font></Link>
+            <div className='header-logo'>
+              <Link className='header-link' to={/./}>mikstura<font color="orange">.IT</font></Link>
             </div>
             <Navigation />
           </h1>
-          <div className='shortInfo'>
-          </div>
         </div>
         <main>{children}</main>
       </div>

@@ -10,7 +10,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.logo {
+.header-logo {
   font-family: 'Major Mono Display', monospace;
   float: left;
   position: absolute;
@@ -31,11 +31,11 @@
   font-weight: 500;
   float: right;
 }
-.navigationItem {
+.navigation-item {
   margin-right: 30px;
   position: relative; 
 }
-.last {
+.navigation_item-last {
   text-align: center;
   width: 100px;
   height: 40px;
@@ -47,16 +47,16 @@
   border-color: orange;
   border-radius: 12px;
 }
-.styledLink {
+.header-link {
   color: #404040;
   text-decoration: none;
 }
-.styledLink.active {
+.header-link.active {
   color: orange;
   text-shadow: 0px 0px 1px orange;
 }
 
-.styledLink:hover {
+.header-link:hover {
   color: orange;
   text-decoration: none;
 }
