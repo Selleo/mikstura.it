@@ -24,22 +24,14 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 1920,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <div className='content'>
-          <h1 className='header'>
-            <div className='header-logo'>
-              <Link className='header-link' to={/./}>mikstura<font color="orange">.IT</font></Link>
-            </div>
-            <Navigation />
-          </h1>
+      <div className='header'>
+        <div className='header-logo'>
+          <Link className='header-link' to={/./}>mikstura<span className="header-link__it">.IT</span></Link>
         </div>
-        <main>{children}</main>
+        <Navigation />
+      </div>
+      <div className='content'>
+        {children}
       </div>
     </>
   );
