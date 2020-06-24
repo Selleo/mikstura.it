@@ -32,8 +32,8 @@ const Layout = ({ children }) => {
       </div>
       <div className='content'>
         {children}
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 };

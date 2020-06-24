@@ -21,10 +21,8 @@ body {
 }
 
 .content {
-  display: flex;
-  align-items: flex-end;
   margin: 0 auto;
-  width: 1080px;
+  width: 1140px;
   height: 800px;
   background-color: white;
   color: var(--secondary-color);
@@ -57,7 +55,8 @@ body {
 }
 
 .footer-content {
-  width: 100%;
+  width: 1140px;
+  margin: 10px auto;
 }
 
 .footer__bottomline {
