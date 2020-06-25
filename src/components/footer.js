@@ -5,9 +5,6 @@ import '../fontawesome/css/fontawesome.min.css';
 const Footer = () => (
   <div className='footer-content'>
     <li className='footer-link-wrapper'>
-      <div className='footer-logo'>
-        <a href="http://mikstura.it" className='footer-link'>mikstura<span className="header-link__it">.IT</span></a>
-      </div>
       <ol className='footer__icon'>
         <a href="https://www.meetup.com/Mikstura-IT/" className='footer-link'><i class="fab fa-meetup"></i></a>
       </ol>
@@ -34,7 +31,7 @@ const Footer = () => (
       </ol>
     </li>
     <div className='footer__bottomline'></div>
-    <div className='footer-credits'>© {new Date().getFullYear()} Selleo</div>
+    <div className='footer-credits'>© {new Date().getFullYear()} Selleo</div>  
   </div>
 );
 

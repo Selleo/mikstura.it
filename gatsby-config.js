@@ -7,12 +7,11 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-source-filesystem`, 
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
-      resolve: `gatsby-plugin-styled-components`,
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -32,4 +31,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
