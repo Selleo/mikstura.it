@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
         </div>
         <Navigation />
       </div>
-      <div className='content'>
+      <div className='container'>
         {children}
       </div>
       <Footer />

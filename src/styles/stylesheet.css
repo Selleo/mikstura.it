@@ -26,9 +26,8 @@ body {
   align-items: center;
 }
 
-.content {
+.container {
   margin: 0 auto;
-  width: 1140px;
   height: 650px;
   color: var(--secondary-color);
 }
