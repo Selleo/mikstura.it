@@ -3,8 +3,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  --primary-color: orange;
-  --secondary-color: #404040;
+  --primary-color: #B632B9;
+  --secondary-color: #4C4C4C;
 }
 
 .header {
@@ -23,8 +23,7 @@ body {
 .content {
   margin: 0 auto;
   width: 1140px;
-  height: 800px;
-  background-color: white;
+  height: 700px;
   color: var(--secondary-color);
 }
 
