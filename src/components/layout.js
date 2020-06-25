@@ -4,12 +4,12 @@
  *
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
-
 import React from "react";
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 import { Link } from 'gatsby';
 import Navigation from './navigation';
+import Footer from "./footer";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -30,9 +30,10 @@ const Layout = ({ children }) => {
         </div>
         <Navigation />
       </div>
-      <div className='content'>
+      <div className='container'>
         {children}
       </div>
+      <Footer />
     </>
   );
 };
