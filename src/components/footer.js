@@ -5,6 +5,7 @@ import '../fontawesome/css/fontawesome.min.css';
 const Footer = () => (
   <div className='footer-content'>
     <li className='footer-link-wrapper'>
+      <div className='footer__logo'></div>
       <ol className='footer__icon'>
         <a href="https://www.meetup.com/Mikstura-IT/" className='footer-link'><i class="fab fa-meetup"></i></a>
       </ol>
