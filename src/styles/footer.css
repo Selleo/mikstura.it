@@ -66,49 +66,38 @@
     width: auto;
   }
 
-  .footer__logo{
-    width: 0px;
-    height: 0px;
+  .footer__logo {
+    display: none;
   }
 
-  .footer__bottomline{
-    width: 240px;
+  .footer__bottomline {
+    width: 320px;
   }
 
-  .footer__icon{
+  .footer__icon {
     width: 30px;
     height: 30px;
   }
 
-  .footer-link-wrapper{
-    width: 240px;
+  .footer-link-wrapper {
+    width: 320px;
     font-size: 16px;
   }
 }
 
 @media (min-width: 768px) {
   .footer-content {
-    width
-    : auto;
+    width: auto;
   }
-  .footer__logo{
-    width: 0px;
-    height: 0px;
+  .footer__logo {
+    display: none;
   }
 
-  .footer__bottomline{
-    width: 320px;
-  }
-
-  .footer__icon{
+  .footer__icon {
     width: 35px;
     height: 35px;
   }
-
-  .footer-link-wrapper{
-    width: 320px;
-    font-size: 18px;
-  }
+  
 }
 
 @media (min-width: 992px) {
@@ -116,7 +105,8 @@
     width: 960px;
   }
 
-  .footer__logo{
+  .footer__logo {
+    display: initial;
     width: 180px;
     height: 80px;
     background-image: url('../images/logo_fundacja.png');
@@ -124,17 +114,17 @@
     background-size: 160px 80px;
   }
 
-  .footer__bottomline{
-    width: 540px;
+  .footer__bottomline {
+    width: 570px;
   }
 
-  .footer__icon{
-    width: 45px;
-    height: 45px;
+  .footer__icon {
+    width: 40px;
+    height: 40px;
   }
 
-  .footer-link-wrapper{
-    width: 540px;
+  .footer-link-wrapper {
+    width: 570px;
     font-size: 22px;
   }
 }
@@ -144,7 +134,8 @@
     width: 1140px;
   }
 
-  .footer__logo{
+  .footer__logo {
+    display: initial;
     width: 200px;
     height: 100px;
     background-image: url('../images/logo_fundacja.png');
@@ -152,16 +143,16 @@
     background-size: 200px 100px;
   }
 
-  .footer__bottomline{
+  .footer__bottomline {
     width: 720px;
   }
 
-  .footer__icon{
+  .footer__icon {
     width: 45px;
     height: 45px;
   }
 
-  .footer-link-wrapper{
+  .footer-link-wrapper {
     width: 720px;
     font-size: 22px;
   }
