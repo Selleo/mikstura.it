@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "./variables.css";
+@import './normalize.css';
+@import './navigation.css';
+@import "./footer.css";
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('../images/clean_mikstura_wallpaper.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.container {
+  margin: 0 auto;
+  height: 650px;
+  color: var(--secondary-color);
+}
