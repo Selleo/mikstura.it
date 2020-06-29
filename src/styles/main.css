@@ -37,3 +37,13 @@ body {
   margin: 30px 30px;
   border-left: 4px solid var(--primary-color);
 }
+
+.tiles {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.tiles-item {
+  margin: 0;
+}
