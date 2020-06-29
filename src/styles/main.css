@@ -17,7 +17,6 @@ body {
 }
 
 .container {
-  padding-top: 100px;
   margin: 0 auto;
   height: 650px;
   color: var(--secondary-color);
@@ -30,6 +29,10 @@ body {
 
 .part-text__color {
   color: var(--primary-color);
+}
+
+.about{
+  padding-top: 100px;
 }
 
 .about-content {
