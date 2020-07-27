@@ -1,0 +1,24 @@
+- course:
+    description: "Część I"
+    url: "https://www.youtube.com/embed/aXhsO5K3W-I"
+    iframeTitle: "part1"
+- course:
+    description: "Część II"
+    url: "https://www.youtube.com/embed/EtMHg5o8_1k"
+    iframeTitle: "part2"
+- course:
+    description: "Część III"
+    url: "https://www.youtube.com/embed/RLBoUKhW12I"
+    iframeTitle: "part3"
+- course:
+    description: "Część IV"
+    url: "https://www.youtube.com/embed/blku9Ad-7Q0"
+    iframeTitle: "part4"
+- course:
+    description: "Część V"
+    url: "https://www.youtube.com/embed/OVNZXZPvVFw"
+    iframeTitle: "part5"
+- course:
+    description: "Część VI"
+    url: "https://www.youtube.com/embed/OWZcaNnum-o"
+    iframeTitle: "part6"

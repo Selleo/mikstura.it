@@ -16,7 +16,7 @@ const Navigation = () => (
 
           <ul className='navbar-nav'>
             <li className='nav-item'>
-              <Link className='header-link' to={'/news/'} activeClassName='active'>Aktualności</Link>
+              <Link className='header-link' to={'/'} activeClassName='active'>Aktualności</Link>
             </li>
             <li className='nav-item'>
               <Link className='header-link' to={'/about/'} activeClassName='active'>O nas</Link>
