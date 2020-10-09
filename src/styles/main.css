@@ -5,6 +5,7 @@
 @import './normalize.css';
 @import './navigation.css';
 @import "./footer.css";
+@import './post.css';
 
 body {
   font-family: 'Poppins', sans-serif;

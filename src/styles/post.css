@@ -1,0 +1,25 @@
+.post-box {
+  background-color: var(--post-bg-color);
+  border: solid 3px var(--primary-color);
+  padding: 20px;
+  margin: 50px;
+}
+.post__title {
+  letter-spacing: 2px;
+  font-size: 28px;
+}
+.post__date {
+  color: #707070;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+.post-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.post__text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
